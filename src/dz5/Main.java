@@ -1,3 +1,5 @@
+package dz5;
+
 public class Main {
     public static void main(String[] args) {
         Phone phone = new Phone();
@@ -15,7 +17,5 @@ public class Main {
         phone.receiveCall("Ivan");
         phone1.receiveCall("Maria");
         phone2.receiveCall("Dasha");
-
-
     }
 }

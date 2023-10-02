@@ -1,6 +1,6 @@
-package p1;
+package p4;
 
-public class Person {
+public /*final*/ class Person {
 
     private String name;
 
@@ -14,5 +14,9 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void info(){
+        System.out.println("Name:" + name);
     }
 }

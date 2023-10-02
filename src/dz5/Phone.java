@@ -1,3 +1,5 @@
+package dz5;
+
 public class Phone {
 
     private int number;
@@ -32,7 +34,7 @@ public class Phone {
     }
 
     public void info(){
-        System.out.printf("Phone: model - %s, number - %d, wight - %.2f \n", getModel(), number, wight);
+        System.out.printf("dz5.Phone: model - %s, number - %d, wight - %.2f \n", getModel(), number, wight);
     }
 
     public void receiveCall(String name){
